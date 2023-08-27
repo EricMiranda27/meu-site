@@ -50,7 +50,7 @@ main>h2 {
 }
 
 .minha-foto {
-    border: 3px solid var(--cor1);
+    box-shadow: 0px 0px 15px 2px var(--cor1);
     border-radius: 40px;
     transition: transform 0.3s ease, border-radius 0.3s ease;
 }
@@ -96,16 +96,19 @@ abbr {
 .html {
     font-family: 'Courier New', Courier, monospace;
     color: #E54C21;
+    text-shadow: 2px 2px 2px rgba(229, 75, 33, 0.5);
 }
 
 .css {
     font-family: 'Courier New', Courier, monospace;
     color: #214CE5;
+    text-shadow: 2px 2px 2px rgba(33, 75, 229, 0.5);
 }
 
 .js {
     font-family: 'Courier New', Courier, monospace;
     color: #F7E018;
+    text-shadow: 2px 2px 2px rgba(247, 225, 24, 0.5);
 }
 
 footer {
