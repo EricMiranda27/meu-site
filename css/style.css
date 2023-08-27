@@ -137,6 +137,10 @@ a {
     text-decoration: none;
 }
 
+a::after {
+    content: '\1F517';
+}
+
 a:hover {
     color: white;
     text-decoration: underline;
